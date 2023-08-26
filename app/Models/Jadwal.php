@@ -23,5 +23,13 @@ class Jadwal extends Model
         return $query->getResultArray();
     }
 
+    public function Unggulan(){
+        $db      = \Config\Database::connect();
+
+        $query = $db->query("SELECT * FROM tab_unggulan");
+
+        return $query->getResultArray();
+    }
+
     
 }

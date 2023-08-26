@@ -83,11 +83,11 @@
                                 <li class="li-visi">Surat keterangan tidak mampu/yatim dari RT</li>
 
                             </ul>
-                            <p class="text-start">4.Melunasi biaya pendaftaran</p>
+                            <!-- <p class="text-start">4.Melunasi biaya pendaftaran</p>
                             <ul class="ul-visi">
                                 <li class="li-visi">Uang Lemari (1x diawal masuk) : Rp. 150.000,00</li>
                                 <li class="li-visi">Infak Bulanan : Rp. 100.000,00</li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
 
@@ -190,6 +190,18 @@
                     </div>
                 </div>
                 <h3 class="text-center my-2 sub-title">
+                    Kegiatan Unggulan
+                </h3>
+                <table class="table table-bordered">
+                    <tbody>
+                        <?php foreach ($program as $row) : ?>
+                            <tr>
+                                <th scope="row"><?= $row['nama'] ?></th>
+                            </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+                <h3 class="text-center my-2 sub-title">
                     Jadwal Kegiatan Harian
                 </h3>
                 <table class="table table-bordered">
@@ -276,12 +288,12 @@
         <div class="card" style="height: min-content; width: 100%; max-width: 1050px;">
             <div class="card-body d-flex justify-content-between h-100 flex-column flex-wrap">
                 <p class="text-center py-2 sub-title">
-                    Jl. H. Anan, RT.03/RW.007, Jatiluhur, Kec. Jatiasih, Kota Bks, Jawa
+                    Jl. H. Anan, RT.03/RW.007, Villa Abar, Jatiluhur, Kec. Jatiasih, Kota Bks, Jawa
                     Barat 17425
                 </p>
                 <div class="mapouter">
                     <div class="gmap_canvas">
-                        <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1050&amp;height=400&amp;hl=en&amp;q=villa abar&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                        <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=abar rumah tahfdiz&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                     </div>
                     <style>
                         .mapouter {

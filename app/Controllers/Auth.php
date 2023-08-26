@@ -11,7 +11,7 @@ class Auth extends BaseController
             "user" => $this->session_login(),
             "page" => "Login"
         ];
-        return view('/Admin/Login', $data);
+        return view('/Auth/Login', $data);
     }
 
     public function auth()
@@ -35,7 +35,9 @@ class Auth extends BaseController
                     ];
                     $this->session = \Config\Services::session();
                     $this->session->set($data);
-                    
+
+
+                    session()->setFlashdata('success', "Berhasil Login");
                     return redirect()->to('/');
                 } else {
                     session()->setFlashdata('warning', "Password Salah");
@@ -58,7 +60,7 @@ class Auth extends BaseController
             "user" => $this->session_login(),
             "page" => "Register"
         ];
-        return view('/Admin/Register', $data);
+        return view('/Dashboard/Register', $data);
     }
 
     public function daftar()
@@ -131,7 +133,7 @@ class Auth extends BaseController
             'password' => $password,
             'image' => "default.png",
             'role_id' => 5,
-            'is_active' => 1
+            'is_active' => 0
         ];
 
         $builder->insert($data);
@@ -140,7 +142,8 @@ class Auth extends BaseController
     }
 
 
-    public function logout(){
+    public function logout()
+    {
 
         $this->session->destroy();
         session()->setFlashdata('success', "Berhasil Logout");

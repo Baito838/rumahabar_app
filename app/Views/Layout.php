@@ -125,6 +125,10 @@
             border-radius: 10px;
         }
 
+        a {
+            text-decoration: none;
+        }
+
         #hero {
             background-image: url("<?= base_url() ?>/landingpage/hero.png");
             background-position: center;
@@ -204,6 +208,7 @@
         }
 
 
+
         #sejarah {
             display: flex;
             justify-content: center;
@@ -252,6 +257,7 @@
             display: none;
         }
 
+
         @media(max-width: 1012px) {
             .profile {
                 display: none;
@@ -290,7 +296,8 @@
                 padding: 0 20px;
             }
 
-            #ayat {
+            #ayat,
+            #bio {
                 padding: 0 20px;
             }
 
@@ -324,15 +331,11 @@
     <div class="flash-data-warning" data-flashdata="<?= session()->get('warning'); ?>"></div>
     <div class="flash-data-error" data-flashdata="<?= session()->get('error'); ?>"></div>
 
-    <?php if ($url == 'home') : ?>
-        <section id="hero">
-            <img class="hidden" style="width: 100%; max-width: 450px;" src="<?= base_url() ?>/logo/logo.png" alt="">
-            <h4 class="hidden text-center subtitle-hero">
-                Lembaga pendidikan Islam hususnya dibidang Tahsin & Tahfidz Al Quran, Kajian Kitab ulama,
-                dan Pendidikan umum sekolah
-            </h4>
-        </section>
-    <?php endif ?>
+
+
+
+
+
 
     <nav class="navbar sticky-top navbar-expand-lg bg-light">
         <div class="container-fluid">
@@ -351,67 +354,57 @@
                                 <img class="profile_android" src="<?= base_url() ?>/login/profile/<?= $user['image'] ?>" alt="">
                             </li>
                         <?php endif; ?>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link <?= ($url == "home") ? "active" : "" ?> dropdown-toggle" href="home" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item <?= ($url == "home") ? "active" : "" ?>">
+                            <a class=" nav-link active" aria-current="page" href="/home">
                                 Home
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="nav-link text-center" href="blog"> Blog </a></li>
-                                <li><a class="nav-link text-center" href="home#ayat"> Home </a></li>
-                                <li><a class="nav-link text-center" href="home#lokasi"> Lokasi </a></li>
-                            </ul>
+                        </li>
+                        <li class="nav-item <?= ($url == "blogs") ? "active" : "" ?>">
+                            <a class=" nav-link active" aria-current="page" href="/blogs">
+                                Blog
+                            </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link <?= ($url == "pendaftaran") ? "active" : "" ?> dropdown-toggle" href="about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link <?= ($url == "pendaftaran") ? "active" : "" ?>" href="about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Pendaftaran
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="nav-link text-center" href="pendaftaran#pendaftaran"> Pendaftaran </a></li>
-                                <li><a class="nav-link text-center" href="pendaftaran#tata_tertib"> Tata Tertib </a></li>
-                                <li><a class="nav-link text-center" href="pendaftaran#kegiatan">Kegiatan </a></li>
-                                <li><a class="nav-link text-center" href="pendaftaran#donasi"> Donasi Online </a></li>
-                                <li><a class="nav-link text-center" href="pendaftaran#lokasi"> Donasi Langsung </a></li>
+                                <li><a class="nav-link text-center" href="/pendaftaran#pendaftaran"> Pendaftaran </a></li>
+                                <li><a class="nav-link text-center" href="/pendaftaran#tata_tertib"> Tata Tertib </a></li>
+                                <li><a class="nav-link text-center" href="/pendaftaran#kegiatan">Kegiatan </a></li>
+                                <li><a class="nav-link text-center" href="/pendaftaran#donasi"> Donasi Online </a></li>
+                                <li><a class="nav-link text-center" href="/pendaftaran#lokasi"> Donasi Langsung </a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link <?= ($url == "about") ? "active" : "" ?> dropdown-toggle" href="about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link <?= ($url == "about") ? "active" : "" ?>" href="about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Tentang Kami
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="nav-link text-center" href="about#visi"> Visi Misi </a></li>
-                                <li><a class="nav-link text-center" href="about#sejarah"> Sejarah </a></li>
-                                <li><a class="nav-link text-center" href="about#struktur"> Struktur </a></li>
-                                <li><a class="nav-link text-center" href="about#galeri"> Galery </a></li>
-                                <li><a class="nav-link text-center" href="about#legalitas"> Legalitas </a></li>
+                                <li><a class="nav-link text-center" href="/about#visi"> Visi Misi </a></li>
+                                <li><a class="nav-link text-center" href="/about#sejarah"> Sejarah </a></li>
+                                <li><a class="nav-link text-center" href="/about#struktur"> Struktur </a></li>
+                                <li><a class="nav-link text-center" href="/about#galeri"> Galery </a></li>
+                                <li><a class="nav-link text-center" href="/about#legalitas"> Legalitas </a></li>
                             </ul>
                         </li>
                         <?php if ($user == null) : ?>
-                            <li class="nav-item dropdown login-menu">
-                                <a class="nav-link <?= ($url == "masuk" || $url == "register") ? "active" : "" ?> dropdown-toggle" href="about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Login
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="nav-link .login" href="masuk"> Login </a></li>
-                                    <li><a class="nav-link .login" href="register"> Register </a></li>
-                                </ul>
-
+                            <li class="nav-item">
+                                <a class="nav-link <?= ($url == "masuk" || $url == "register") ? "active" : "" ?>" href="masuk">Login</a>
                             </li>
                         <?php endif; ?>
 
                         <?php if ($user != null) : ?>
                             <li class="nav-item dropdown">
-                                <a class="nav-link <?= ($url == "masuk" || $url == "register") ? "active" : "" ?> dropdown-toggle" href="about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link <?= ($url == "masuk" || $url == "register") ? "active" : "" ?>" href="about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img class="profile" src="<?= base_url() ?>/login/profile/<?= $user['image'] ?>" alt=""> <?= $user['username'] ?>
                                 </a>
-                                <ul class="dropdown-menu">
-                                    <?php if ($user['role_id'] == 1 || $user['role_id'] == 2 || $user['role_id'] == 3) : ?>
-                                        <li><a class="nav-link login" href="dashboard"> Database </a></li>
-                                    <?php endif; ?>
-
-                                    <li><a class="nav-link login" href="profile"> Profile </a></li>
-                                    <li><a class="nav-link login" href="logout"> Logout </a></li>
+                                <ul class="dropdown-menu logan">
+                                    <li><a class="nav-link" href="/dashboard"> Dashboard </a></li>
+                                    <li><a class="nav-link" onclick="logout()"> Keluar </a></li>
                                 </ul>
                             </li>
+
                         <?php endif; ?>
                     </ul>
                 </div>
@@ -423,6 +416,21 @@
 
 
     <nav class="navbar navbar-light bg-light" style="height: 80px;">
+        <div class="w-100 d-flex justify-content-center align-items-center gap-2 flex-wrap">
+            <a href="https://web.facebook.com/YayasanAbarRumahTahfidz">
+                <p class="text-center"><i class="fa-brands fa-facebook"></i> yayasanabarrumahtahfidz</p>
+            </a>
+            <a href="https://www.instagram.com/yayasanabarrumahtahfidz/">
+                <p class="text-center"><i class="fa-brands fa-instagram"></i> yayasanabarrumahtahfidz</p>
+            </a>
+            <a href="https://www.youtube.com/@YayasanAbarRumahTahfidz">
+                <p class="text-center"><i class="fa-brands fa-youtube"></i> yayasanabarrumahtahfidz</p>
+            </a>
+            <a href="https://www.tiktok.com/@yayasanabarrumahtahfidz">
+                <p class="text-center"><i class="fa-brands fa-tiktok"></i> yayasanabarrumahtahfidz</p>
+            </a>
+
+        </div>
         <div class="w-100 d-flex justify-content-center align-items-center">
             <p class="text-center">Copyright © 2023 Abar Rumah Tahfidz - All right reserved</p>
         </div>
@@ -464,6 +472,21 @@
                 text = flashError,
                 'error'
             );
+        }
+
+        function logout() {
+            Swal.fire({
+                text: "Yakin Ingin Keluar ?",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#D63131',
+                cancelButtonColor: '#00593B',
+                confirmButtonText: 'Keluar'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    location.href = 'logout';
+                }
+            })
         }
     </script>
 

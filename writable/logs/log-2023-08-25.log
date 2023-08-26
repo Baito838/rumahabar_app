@@ -1,0 +1,1520 @@
+INFO - 2023-08-25 00:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:14:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 00:18:34 --> unlink(absen/guru): Is a directory
+in APPPATH\Controllers\Absen.php on line 118.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(absen/guru): Is a directory', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Controllers\\Absen.php', 118)
+ 2 APPPATH\Controllers\Absen.php(118): unlink('absen/guru')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Absen->Truncate_Absen()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 00:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 00:22:49 --> rmdir(absen/guru): No such file or directory
+in APPPATH\Controllers\Absen.php on line 125.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rmdir(absen/guru): No such file or directory', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Controllers\\Absen.php', 125)
+ 2 APPPATH\Controllers\Absen.php(125): rmdir('absen/guru')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Absen->Truncate_Absen()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 00:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 00:23:16 --> unlink(absen/santri): Is a directory
+in APPPATH\Controllers\Absen.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(absen/santri): Is a directory', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Controllers\\Absen.php', 123)
+ 2 [internal function]: unlink('absen/santri')
+ 3 APPPATH\Controllers\Absen.php(123): array_map('unlink', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Absen->Truncate_Absen()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 00:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 00:23:24 --> unlink(absen/santri): Is a directory
+in APPPATH\Controllers\Absen.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(absen/santri): Is a directory', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Controllers\\Absen.php', 123)
+ 2 [internal function]: unlink('absen/santri')
+ 3 APPPATH\Controllers\Absen.php(123): array_map('unlink', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Absen->Truncate_Absen()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 00:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 00:23:27 --> unlink(absen/santri): Is a directory
+in APPPATH\Controllers\Absen.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(absen/santri): Is a directory', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Controllers\\Absen.php', 123)
+ 2 [internal function]: unlink('absen/santri')
+ 3 APPPATH\Controllers\Absen.php(123): array_map('unlink', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Absen->Truncate_Absen()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 00:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 00:23:44 --> unlink(absen/santri): Is a directory
+in APPPATH\Controllers\Absen.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(absen/santri): Is a directory', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Controllers\\Absen.php', 123)
+ 2 [internal function]: unlink('absen/santri')
+ 3 APPPATH\Controllers\Absen.php(123): array_map('unlink', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Absen->Truncate_Absen()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 00:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 00:25:46 --> unlink(absen/guru): Is a directory
+in APPPATH\Controllers\Absen.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(absen/guru): Is a directory', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Controllers\\Absen.php', 123)
+ 2 [internal function]: unlink('absen/guru')
+ 3 APPPATH\Controllers\Absen.php(123): array_map('unlink', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Absen->Truncate_Absen()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 00:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 00:26:45 --> unlink(absen/guru): Is a directory
+in APPPATH\Controllers\Absen.php on line 123.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(absen/guru): Is a directory', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Controllers\\Absen.php', 123)
+ 2 [internal function]: unlink('absen/guru')
+ 3 APPPATH\Controllers\Absen.php(123): array_map('unlink', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Absen->Truncate_Absen()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Absen))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 00:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:27:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 00:44:50 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Profile.php on line 10.
+ 1 APPPATH\Views\Dashboard\Profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Profile.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Profile', [], true)
+ 5 APPPATH\Controllers\Profile.php(14): view('/Dashboard/Profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 00:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 00:44:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Profile.php on line 10.
+ 1 APPPATH\Views\Dashboard\Profile.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Profile.php', 10)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Profile.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Profile', [], true)
+ 5 APPPATH\Controllers\Profile.php(14): view('/Dashboard/Profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Profile->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 00:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 00:44:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Home.php on line 6.
+ 1 APPPATH\Views\Dashboard\Home.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Home', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(29): view('/Dashboard/Home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 00:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 00:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 02:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-25 03:18:44 --> mysqli_sql_exception: Column count doesn't match value count at row 1 in C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO tab...', 0)
+#1 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO tab...')
+#2 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tab...')
+#3 C:\xampp\htdocs\abar_rumah_tahfidz\app\Controllers\Blog.php(33): CodeIgniter\Database\BaseConnection->query('INSERT INTO tab...')
+#4 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(932): App\Controllers\Blog->Tambah_Artikel()
+#5 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\abar_rumah_tahfidz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\abar_rumah_tahfidz\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-08-25 03:18:44 --> Column count doesn't match value count at row 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO tab_blog(image,tema,text_1,text_2,text_3,text_4,link_yt) VALUES (\'1692933524_adacc4ad57dbec96dd0b.jpg\',\'\',\'\',\'\',\'\',\'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO tab_blog(image,tema,text_1,text_2,text_3,text_4,link_yt) VALUES (\'1692933524_adacc4ad57dbec96dd0b.jpg\',\'\',\'\',\'\',\'\',\'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tab_blog(image,tema,text_1,text_2,text_3,text_4,link_yt) VALUES (\'1692933524_adacc4ad57dbec96dd0b.jpg\',\'\',\'\',\'\',\'\',\'\')')
+ 4 APPPATH\Controllers\Blog.php(33): CodeIgniter\Database\BaseConnection->query('INSERT INTO tab_blog(image,tema,text_1,text_2,text_3,text_4,link_yt) VALUES (\'1692933524_adacc4ad57dbec96dd0b.jpg\',\'\',\'\',\'\',\'\',\'\')')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Tambah_Artikel()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 03:19:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:48:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:51:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 03:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 04:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 04:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 04:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 04:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 04:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 04:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-25 04:14:50 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_abar`.`tab_blog`, CONSTRAINT `tab_blog_ibfk_1` FOREIGN KEY (`user_create`) REFERENCES `tab_user` (`id`)) in C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO tab...', 0)
+#1 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO tab...')
+#2 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tab...')
+#3 C:\xampp\htdocs\abar_rumah_tahfidz\app\Controllers\Blog.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tab...')
+#4 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(932): App\Controllers\Blog->Tambah_Artikel()
+#5 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\abar_rumah_tahfidz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\abar_rumah_tahfidz\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-08-25 04:14:50 --> Cannot add or update a child row: a foreign key constraint fails (`db_abar`.`tab_blog`, CONSTRAINT `tab_blog_ibfk_1` FOREIGN KEY (`user_create`) REFERENCES `tab_user` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO tab_blog(image,tema,text_1,text_2,text_3,text_4,link_yt,csrf,user_create) VALUES (\'1692936890_53e467c7f97567e03aba.jpeg\',\'Shalat Berjamaah\',\'Shalat merupakan salah satu ibadah utama dalam agama Islam, dan terdapat banyak keutamaan dalam melaksanakan shalat lima waktu serta shalat berjamaah. Berikut adalah beberapa keutamaan dari keduanya:
+
+\',\'Shalat Lima Waktu:
+
+Ketaatan kepada Allah: Shalat lima waktu merupakan bentuk ketaatan kepada perintah Allah. Melalui shalat, seorang muslim mengakui ketaatan dan penghambaan kepada Allah sebagai pencipta dan pemelihara alam semesta.
+
+Hubungan Dengan Allah: Shalat memperkuat hubungan spiritual antara seorang muslim dengan Allah. Ia memberikan waktu untuk berkomunikasi secara pribadi dengan Tuhan dan merenungkan kebesaran-Nya.
+
+Pembersih Dosa: Shalat berfungsi sebagai sarana untuk membersihkan dosa-dosa. Dengan senantiasa melaksanakan shalat lima waktu, seorang muslim diharapkan memperoleh pengampunan dari Allah atas dosa-dosanya.
+
+Disiplin dan Kedewasaan: Menjalankan shalat lima waktu membutuhkan kedisiplinan dan tanggung jawab. Ini membantu mengembangkan sikap tanggung jawab dan kedewasaan dalam kehidupan sehari-hari.
+\',\'Shalat Berjamaah:
+
+Kebersamaan Umat: Shalat berjamaah menghubungkan umat Muslim dalam pengakuan kolektif terhadap keesaan Allah dan keimanan mereka. Ini memperkuat ikatan antara sesama muslim.
+
+Penguatan Ukhuwah: Shalat berjamaah memperkuat rasa persaudaraan dan ukhuwah Islamiyah antar sesama muslim. Saat berjamaah, semua lapisan masyarakat bersatu dalam ibadah yang sama.
+
+Pahala Lebih Besar: Pahala shalat berjamaah lebih besar daripada shalat sendirian. Rasulullah SAW menyebutkan bahwa pahala shalat berjamaah bisa berkali-kali lipat daripada shalat sendirian.
+
+Meningkatkan Keteladanan: Shalat berjamaah memungkinkan individu muslim untuk melihat dan meneladani pelaksanaan shalat dengan benar, mengingatkan mereka untuk meningkatkan kualitas ibadah mereka.\',\'\',\'\', \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\', \'6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO tab_blog(image,tema,text_1,text_2,text_3,text_4,link_yt,csrf,user_create) VALUES (\'1692936890_53e467c7f97567e03aba.jpeg\',\'Shalat Berjamaah\',\'Shalat merupakan salah satu ibadah utama dalam agama Islam, dan terdapat banyak keutamaan dalam melaksanakan shalat lima waktu serta shalat berjamaah. Berikut adalah beberapa keutamaan dari keduanya:
+
+\',\'Shalat Lima Waktu:
+
+Ketaatan kepada Allah: Shalat lima waktu merupakan bentuk ketaatan kepada perintah Allah. Melalui shalat, seorang muslim mengakui ketaatan dan penghambaan kepada Allah sebagai pencipta dan pemelihara alam semesta.
+
+Hubungan Dengan Allah: Shalat memperkuat hubungan spiritual antara seorang muslim dengan Allah. Ia memberikan waktu untuk berkomunikasi secara pribadi dengan Tuhan dan merenungkan kebesaran-Nya.
+
+Pembersih Dosa: Shalat berfungsi sebagai sarana untuk membersihkan dosa-dosa. Dengan senantiasa melaksanakan shalat lima waktu, seorang muslim diharapkan memperoleh pengampunan dari Allah atas dosa-dosanya.
+
+Disiplin dan Kedewasaan: Menjalankan shalat lima waktu membutuhkan kedisiplinan dan tanggung jawab. Ini membantu mengembangkan sikap tanggung jawab dan kedewasaan dalam kehidupan sehari-hari.
+\',\'Shalat Berjamaah:
+
+Kebersamaan Umat: Shalat berjamaah menghubungkan umat Muslim dalam pengakuan kolektif terhadap keesaan Allah dan keimanan mereka. Ini memperkuat ikatan antara sesama muslim.
+
+Penguatan Ukhuwah: Shalat berjamaah memperkuat rasa persaudaraan dan ukhuwah Islamiyah antar sesama muslim. Saat berjamaah, semua lapisan masyarakat bersatu dalam ibadah yang sama.
+
+Pahala Lebih Besar: Pahala shalat berjamaah lebih besar daripada shalat sendirian. Rasulullah SAW menyebutkan bahwa pahala shalat berjamaah bisa berkali-kali lipat daripada shalat sendirian.
+
+Meningkatkan Keteladanan: Shalat berjamaah memungkinkan individu muslim untuk melihat dan meneladani pelaksanaan shalat dengan benar, mengingatkan mereka untuk meningkatkan kualitas ibadah mereka.\',\'\',\'\', \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\', \'6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tab_blog(image,tema,text_1,text_2,text_3,text_4,link_yt,csrf,user_create) VALUES (\'1692936890_53e467c7f97567e03aba.jpeg\',\'Shalat Berjamaah\',\'Shalat merupakan salah satu ibadah utama dalam agama Islam, dan terdapat banyak keutamaan dalam melaksanakan shalat lima waktu serta shalat berjamaah. Berikut adalah beberapa keutamaan dari keduanya:
+
+\',\'Shalat Lima Waktu:
+
+Ketaatan kepada Allah: Shalat lima waktu merupakan bentuk ketaatan kepada perintah Allah. Melalui shalat, seorang muslim mengakui ketaatan dan penghambaan kepada Allah sebagai pencipta dan pemelihara alam semesta.
+
+Hubungan Dengan Allah: Shalat memperkuat hubungan spiritual antara seorang muslim dengan Allah. Ia memberikan waktu untuk berkomunikasi secara pribadi dengan Tuhan dan merenungkan kebesaran-Nya.
+
+Pembersih Dosa: Shalat berfungsi sebagai sarana untuk membersihkan dosa-dosa. Dengan senantiasa melaksanakan shalat lima waktu, seorang muslim diharapkan memperoleh pengampunan dari Allah atas dosa-dosanya.
+
+Disiplin dan Kedewasaan: Menjalankan shalat lima waktu membutuhkan kedisiplinan dan tanggung jawab. Ini membantu mengembangkan sikap tanggung jawab dan kedewasaan dalam kehidupan sehari-hari.
+\',\'Shalat Berjamaah:
+
+Kebersamaan Umat: Shalat berjamaah menghubungkan umat Muslim dalam pengakuan kolektif terhadap keesaan Allah dan keimanan mereka. Ini memperkuat ikatan antara sesama muslim.
+
+Penguatan Ukhuwah: Shalat berjamaah memperkuat rasa persaudaraan dan ukhuwah Islamiyah antar sesama muslim. Saat berjamaah, semua lapisan masyarakat bersatu dalam ibadah yang sama.
+
+Pahala Lebih Besar: Pahala shalat berjamaah lebih besar daripada shalat sendirian. Rasulullah SAW menyebutkan bahwa pahala shalat berjamaah bisa berkali-kali lipat daripada shalat sendirian.
+
+Meningkatkan Keteladanan: Shalat berjamaah memungkinkan individu muslim untuk melihat dan meneladani pelaksanaan shalat dengan benar, mengingatkan mereka untuk meningkatkan kualitas ibadah mereka.\',\'\',\'\', \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\', \'6\')')
+ 4 APPPATH\Controllers\Blog.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tab_blog(image,tema,text_1,text_2,text_3,text_4,link_yt,csrf,user_create) VALUES (\'1692936890_53e467c7f97567e03aba.jpeg\',\'Shalat Berjamaah\',\'Shalat merupakan salah satu ibadah utama dalam agama Islam, dan terdapat banyak keutamaan dalam melaksanakan shalat lima waktu serta shalat berjamaah. Berikut adalah beberapa keutamaan dari keduanya:
+
+\',\'Shalat Lima Waktu:
+
+Ketaatan kepada Allah: Shalat lima waktu merupakan bentuk ketaatan kepada perintah Allah. Melalui shalat, seorang muslim mengakui ketaatan dan penghambaan kepada Allah sebagai pencipta dan pemelihara alam semesta.
+
+Hubungan Dengan Allah: Shalat memperkuat hubungan spiritual antara seorang muslim dengan Allah. Ia memberikan waktu untuk berkomunikasi secara pribadi dengan Tuhan dan merenungkan kebesaran-Nya.
+
+Pembersih Dosa: Shalat berfungsi sebagai sarana untuk membersihkan dosa-dosa. Dengan senantiasa melaksanakan shalat lima waktu, seorang muslim diharapkan memperoleh pengampunan dari Allah atas dosa-dosanya.
+
+Disiplin dan Kedewasaan: Menjalankan shalat lima waktu membutuhkan kedisiplinan dan tanggung jawab. Ini membantu mengembangkan sikap tanggung jawab dan kedewasaan dalam kehidupan sehari-hari.
+\',\'Shalat Berjamaah:
+
+Kebersamaan Umat: Shalat berjamaah menghubungkan umat Muslim dalam pengakuan kolektif terhadap keesaan Allah dan keimanan mereka. Ini memperkuat ikatan antara sesama muslim.
+
+Penguatan Ukhuwah: Shalat berjamaah memperkuat rasa persaudaraan dan ukhuwah Islamiyah antar sesama muslim. Saat berjamaah, semua lapisan masyarakat bersatu dalam ibadah yang sama.
+
+Pahala Lebih Besar: Pahala shalat berjamaah lebih besar daripada shalat sendirian. Rasulullah SAW menyebutkan bahwa pahala shalat berjamaah bisa berkali-kali lipat daripada shalat sendirian.
+
+Meningkatkan Keteladanan: Shalat berjamaah memungkinkan individu muslim untuk melihat dan meneladani pelaksanaan shalat dengan benar, mengingatkan mereka untuk meningkatkan kualitas ibadah mereka.\',\'\',\'\', \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\', \'6\')')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Tambah_Artikel()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 04:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 04:18:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-25 04:18:58 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_abar`.`tab_blog`, CONSTRAINT `tab_blog_ibfk_1` FOREIGN KEY (`user_create`) REFERENCES `tab_user` (`id`)) in C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO tab...', 0)
+#1 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO tab...')
+#2 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tab...')
+#3 C:\xampp\htdocs\abar_rumah_tahfidz\app\Controllers\Blog.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tab...')
+#4 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(932): App\Controllers\Blog->Tambah_Artikel()
+#5 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\abar_rumah_tahfidz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\abar_rumah_tahfidz\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-08-25 04:18:58 --> Cannot add or update a child row: a foreign key constraint fails (`db_abar`.`tab_blog`, CONSTRAINT `tab_blog_ibfk_1` FOREIGN KEY (`user_create`) REFERENCES `tab_user` (`id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO tab_blog(image,tema,text_1,text_2,text_3,text_4,link_yt,csrf,user_create) VALUES (\'1692937138_a34b1da66037003d2e98.jpeg\',\'Shalat Berjamaah\',\'Shalat merupakan salah satu ibadah utama dalam agama Islam, dan terdapat banyak keutamaan dalam melaksanakan shalat lima waktu serta shalat berjamaah. Berikut adalah beberapa keutamaan dari keduanya:
+
+\',\'Shalat Lima Waktu:
+
+Ketaatan kepada Allah: Shalat lima waktu merupakan bentuk ketaatan kepada perintah Allah. Melalui shalat, seorang muslim mengakui ketaatan dan penghambaan kepada Allah sebagai pencipta dan pemelihara alam semesta.
+
+Hubungan Dengan Allah: Shalat memperkuat hubungan spiritual antara seorang muslim dengan Allah. Ia memberikan waktu untuk berkomunikasi secara pribadi dengan Tuhan dan merenungkan kebesaran-Nya.
+
+Pembersih Dosa: Shalat berfungsi sebagai sarana untuk membersihkan dosa-dosa. Dengan senantiasa melaksanakan shalat lima waktu, seorang muslim diharapkan memperoleh pengampunan dari Allah atas dosa-dosanya.
+
+Disiplin dan Kedewasaan: Menjalankan shalat lima waktu membutuhkan kedisiplinan dan tanggung jawab. Ini membantu mengembangkan sikap tanggung jawab dan kedewasaan dalam kehidupan sehari-hari.
+\',\'Shalat Berjamaah:
+
+Kebersamaan Umat: Shalat berjamaah menghubungkan umat Muslim dalam pengakuan kolektif terhadap keesaan Allah dan keimanan mereka. Ini memperkuat ikatan antara sesama muslim.
+
+Penguatan Ukhuwah: Shalat berjamaah memperkuat rasa persaudaraan dan ukhuwah Islamiyah antar sesama muslim. Saat berjamaah, semua lapisan masyarakat bersatu dalam ibadah yang sama.
+
+Pahala Lebih Besar: Pahala shalat berjamaah lebih besar daripada shalat sendirian. Rasulullah SAW menyebutkan bahwa pahala shalat berjamaah bisa berkali-kali lipat daripada shalat sendirian.
+
+Meningkatkan Keteladanan: Shalat berjamaah memungkinkan individu muslim untuk melihat dan meneladani pelaksanaan shalat dengan benar, mengingatkan mereka untuk meningkatkan kualitas ibadah mereka.\',\'\',\'\', \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\', \'6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO tab_blog(image,tema,text_1,text_2,text_3,text_4,link_yt,csrf,user_create) VALUES (\'1692937138_a34b1da66037003d2e98.jpeg\',\'Shalat Berjamaah\',\'Shalat merupakan salah satu ibadah utama dalam agama Islam, dan terdapat banyak keutamaan dalam melaksanakan shalat lima waktu serta shalat berjamaah. Berikut adalah beberapa keutamaan dari keduanya:
+
+\',\'Shalat Lima Waktu:
+
+Ketaatan kepada Allah: Shalat lima waktu merupakan bentuk ketaatan kepada perintah Allah. Melalui shalat, seorang muslim mengakui ketaatan dan penghambaan kepada Allah sebagai pencipta dan pemelihara alam semesta.
+
+Hubungan Dengan Allah: Shalat memperkuat hubungan spiritual antara seorang muslim dengan Allah. Ia memberikan waktu untuk berkomunikasi secara pribadi dengan Tuhan dan merenungkan kebesaran-Nya.
+
+Pembersih Dosa: Shalat berfungsi sebagai sarana untuk membersihkan dosa-dosa. Dengan senantiasa melaksanakan shalat lima waktu, seorang muslim diharapkan memperoleh pengampunan dari Allah atas dosa-dosanya.
+
+Disiplin dan Kedewasaan: Menjalankan shalat lima waktu membutuhkan kedisiplinan dan tanggung jawab. Ini membantu mengembangkan sikap tanggung jawab dan kedewasaan dalam kehidupan sehari-hari.
+\',\'Shalat Berjamaah:
+
+Kebersamaan Umat: Shalat berjamaah menghubungkan umat Muslim dalam pengakuan kolektif terhadap keesaan Allah dan keimanan mereka. Ini memperkuat ikatan antara sesama muslim.
+
+Penguatan Ukhuwah: Shalat berjamaah memperkuat rasa persaudaraan dan ukhuwah Islamiyah antar sesama muslim. Saat berjamaah, semua lapisan masyarakat bersatu dalam ibadah yang sama.
+
+Pahala Lebih Besar: Pahala shalat berjamaah lebih besar daripada shalat sendirian. Rasulullah SAW menyebutkan bahwa pahala shalat berjamaah bisa berkali-kali lipat daripada shalat sendirian.
+
+Meningkatkan Keteladanan: Shalat berjamaah memungkinkan individu muslim untuk melihat dan meneladani pelaksanaan shalat dengan benar, mengingatkan mereka untuk meningkatkan kualitas ibadah mereka.\',\'\',\'\', \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\', \'6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tab_blog(image,tema,text_1,text_2,text_3,text_4,link_yt,csrf,user_create) VALUES (\'1692937138_a34b1da66037003d2e98.jpeg\',\'Shalat Berjamaah\',\'Shalat merupakan salah satu ibadah utama dalam agama Islam, dan terdapat banyak keutamaan dalam melaksanakan shalat lima waktu serta shalat berjamaah. Berikut adalah beberapa keutamaan dari keduanya:
+
+\',\'Shalat Lima Waktu:
+
+Ketaatan kepada Allah: Shalat lima waktu merupakan bentuk ketaatan kepada perintah Allah. Melalui shalat, seorang muslim mengakui ketaatan dan penghambaan kepada Allah sebagai pencipta dan pemelihara alam semesta.
+
+Hubungan Dengan Allah: Shalat memperkuat hubungan spiritual antara seorang muslim dengan Allah. Ia memberikan waktu untuk berkomunikasi secara pribadi dengan Tuhan dan merenungkan kebesaran-Nya.
+
+Pembersih Dosa: Shalat berfungsi sebagai sarana untuk membersihkan dosa-dosa. Dengan senantiasa melaksanakan shalat lima waktu, seorang muslim diharapkan memperoleh pengampunan dari Allah atas dosa-dosanya.
+
+Disiplin dan Kedewasaan: Menjalankan shalat lima waktu membutuhkan kedisiplinan dan tanggung jawab. Ini membantu mengembangkan sikap tanggung jawab dan kedewasaan dalam kehidupan sehari-hari.
+\',\'Shalat Berjamaah:
+
+Kebersamaan Umat: Shalat berjamaah menghubungkan umat Muslim dalam pengakuan kolektif terhadap keesaan Allah dan keimanan mereka. Ini memperkuat ikatan antara sesama muslim.
+
+Penguatan Ukhuwah: Shalat berjamaah memperkuat rasa persaudaraan dan ukhuwah Islamiyah antar sesama muslim. Saat berjamaah, semua lapisan masyarakat bersatu dalam ibadah yang sama.
+
+Pahala Lebih Besar: Pahala shalat berjamaah lebih besar daripada shalat sendirian. Rasulullah SAW menyebutkan bahwa pahala shalat berjamaah bisa berkali-kali lipat daripada shalat sendirian.
+
+Meningkatkan Keteladanan: Shalat berjamaah memungkinkan individu muslim untuk melihat dan meneladani pelaksanaan shalat dengan benar, mengingatkan mereka untuk meningkatkan kualitas ibadah mereka.\',\'\',\'\', \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\', \'6\')')
+ 4 APPPATH\Controllers\Blog.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tab_blog(image,tema,text_1,text_2,text_3,text_4,link_yt,csrf,user_create) VALUES (\'1692937138_a34b1da66037003d2e98.jpeg\',\'Shalat Berjamaah\',\'Shalat merupakan salah satu ibadah utama dalam agama Islam, dan terdapat banyak keutamaan dalam melaksanakan shalat lima waktu serta shalat berjamaah. Berikut adalah beberapa keutamaan dari keduanya:
+
+\',\'Shalat Lima Waktu:
+
+Ketaatan kepada Allah: Shalat lima waktu merupakan bentuk ketaatan kepada perintah Allah. Melalui shalat, seorang muslim mengakui ketaatan dan penghambaan kepada Allah sebagai pencipta dan pemelihara alam semesta.
+
+Hubungan Dengan Allah: Shalat memperkuat hubungan spiritual antara seorang muslim dengan Allah. Ia memberikan waktu untuk berkomunikasi secara pribadi dengan Tuhan dan merenungkan kebesaran-Nya.
+
+Pembersih Dosa: Shalat berfungsi sebagai sarana untuk membersihkan dosa-dosa. Dengan senantiasa melaksanakan shalat lima waktu, seorang muslim diharapkan memperoleh pengampunan dari Allah atas dosa-dosanya.
+
+Disiplin dan Kedewasaan: Menjalankan shalat lima waktu membutuhkan kedisiplinan dan tanggung jawab. Ini membantu mengembangkan sikap tanggung jawab dan kedewasaan dalam kehidupan sehari-hari.
+\',\'Shalat Berjamaah:
+
+Kebersamaan Umat: Shalat berjamaah menghubungkan umat Muslim dalam pengakuan kolektif terhadap keesaan Allah dan keimanan mereka. Ini memperkuat ikatan antara sesama muslim.
+
+Penguatan Ukhuwah: Shalat berjamaah memperkuat rasa persaudaraan dan ukhuwah Islamiyah antar sesama muslim. Saat berjamaah, semua lapisan masyarakat bersatu dalam ibadah yang sama.
+
+Pahala Lebih Besar: Pahala shalat berjamaah lebih besar daripada shalat sendirian. Rasulullah SAW menyebutkan bahwa pahala shalat berjamaah bisa berkali-kali lipat daripada shalat sendirian.
+
+Meningkatkan Keteladanan: Shalat berjamaah memungkinkan individu muslim untuk melihat dan meneladani pelaksanaan shalat dengan benar, mengingatkan mereka untuk meningkatkan kualitas ibadah mereka.\',\'\',\'\', \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\', \'6\')')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Tambah_Artikel()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 04:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 04:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 04:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 04:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 05:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 05:40:56 --> CodeIgniter\Database\BaseBuilder::getWhere(): Argument #2 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\abar_rumah_tahfidz\app\Controllers\Blog.php on line 50
+in SYSTEMPATH\Database\BaseBuilder.php on line 1737.
+ 1 APPPATH\Controllers\Blog.php(50): CodeIgniter\Database\BaseBuilder->getWhere('csrf', '9f9c52e3f6c5fb32aa9aa7ddc1bf464c')
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('9f9c52e3f6c5fb32aa9aa7ddc1bf464c')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 05:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 05:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 05:46:25 --> Undefined variable $user
+in APPPATH\Views\Dashboard\Layout.php on line 77.
+ 1 APPPATH\Views\Dashboard\Layout.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Layout.php', 77)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Layout.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Dashboard/Layout', [], true)
+ 5 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 6 APPPATH\Controllers\Blog.php(58): view('/Dashboard/Artikel', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('9f9c52e3f6c5fb32aa9aa7ddc1bf464c')
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 05:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 05:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 05:59:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 05:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:05:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 06:05:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 8.
+ 1 APPPATH\Views\Dashboard\Artikel.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('santri')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 06:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 06:06:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 8.
+ 1 APPPATH\Views\Dashboard\Artikel.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('santri')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 06:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 06:28:00 --> Undefined array key "username"
+in APPPATH\Views\Dashboard\Artikel.php on line 18.
+ 1 APPPATH\Views\Dashboard\Artikel.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('9f9c52e3f6c5fb32aa9aa7ddc1bf464c')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 06:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-25 06:33:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as ...' at line 1 in C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT image as...', 0)
+#1 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT image as...')
+#2 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT image as...')
+#3 C:\xampp\htdocs\abar_rumah_tahfidz\app\Controllers\Blog.php(50): CodeIgniter\Database\BaseConnection->query('SELECT image as...')
+#4 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(932): App\Controllers\Blog->Detail('9f9c52e3f6c5fb3...')
+#5 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\abar_rumah_tahfidz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\abar_rumah_tahfidz\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-08-25 06:33:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\'')
+ 4 APPPATH\Controllers\Blog.php(50): CodeIgniter\Database\BaseConnection->query('SELECT image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\'')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('9f9c52e3f6c5fb32aa9aa7ddc1bf464c')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 06:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-25 06:34:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as ...' at line 1 in C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT blog_ima...', 0)
+#1 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog_ima...')
+#2 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog_ima...')
+#3 C:\xampp\htdocs\abar_rumah_tahfidz\app\Controllers\Blog.php(50): CodeIgniter\Database\BaseConnection->query('SELECT blog_ima...')
+#4 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(932): App\Controllers\Blog->Detail('9f9c52e3f6c5fb3...')
+#5 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\abar_rumah_tahfidz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\abar_rumah_tahfidz\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-08-25 06:34:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\' ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\' ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\' ')
+ 4 APPPATH\Controllers\Blog.php(50): CodeIgniter\Database\BaseConnection->query('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\' ')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('9f9c52e3f6c5fb32aa9aa7ddc1bf464c')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 06:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-25 06:35:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as ...' at line 1 in C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT blog_ima...', 0)
+#1 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog_ima...')
+#2 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog_ima...')
+#3 C:\xampp\htdocs\abar_rumah_tahfidz\app\Controllers\Blog.php(50): CodeIgniter\Database\BaseConnection->query('SELECT blog_ima...')
+#4 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(932): App\Controllers\Blog->Detail('9f9c52e3f6c5fb3...')
+#5 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\abar_rumah_tahfidz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\abar_rumah_tahfidz\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-08-25 06:35:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id  ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id  ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id  ')
+ 4 APPPATH\Controllers\Blog.php(50): CodeIgniter\Database\BaseConnection->query('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id  ')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('9f9c52e3f6c5fb32aa9aa7ddc1bf464c')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 06:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-25 06:49:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as ...' at line 1 in C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT blog_ima...', 0)
+#1 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog_ima...')
+#2 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog_ima...')
+#3 C:\xampp\htdocs\abar_rumah_tahfidz\app\Controllers\Blog.php(50): CodeIgniter\Database\BaseConnection->query('SELECT blog_ima...')
+#4 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(932): App\Controllers\Blog->Detail('9f9c52e3f6c5fb3...')
+#5 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\abar_rumah_tahfidz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\abar_rumah_tahfidz\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-08-25 06:49:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\' ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\' ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\' ')
+ 4 APPPATH\Controllers\Blog.php(50): CodeIgniter\Database\BaseConnection->query('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'9f9c52e3f6c5fb32aa9aa7ddc1bf464c\' ')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('9f9c52e3f6c5fb32aa9aa7ddc1bf464c')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 06:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-25 06:51:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as ...' at line 1 in C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT blog_ima...', 0)
+#1 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog_ima...')
+#2 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog_ima...')
+#3 C:\xampp\htdocs\abar_rumah_tahfidz\app\Controllers\Blog.php(50): CodeIgniter\Database\BaseConnection->query('SELECT blog_ima...')
+#4 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(932): App\Controllers\Blog->Detail('567b9427be9fbf1...')
+#5 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\abar_rumah_tahfidz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\abar_rumah_tahfidz\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-08-25 06:51:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'567b9427be9fbf19337ce950d5cf5bfc\' ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'567b9427be9fbf19337ce950d5cf5bfc\' ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'567b9427be9fbf19337ce950d5cf5bfc\' ')
+ 4 APPPATH\Controllers\Blog.php(50): CodeIgniter\Database\BaseConnection->query('SELECT blog_image as tb.image, tema as tb.tema, text_1 as tb.text_1, text_2 as tb.text_2, text_3 as tb.text_3, text_4 as tb.text_4, link_yt as tb.link_yt, tanggal as tb.tanggal, username as tu.username, foto as tu.image FROM tab_blog as tb JOIN tab_user as tu ON tb.user_create=tu.id WHERE csrf = \'567b9427be9fbf19337ce950d5cf5bfc\' ')
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('567b9427be9fbf19337ce950d5cf5bfc')
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 06:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 06:57:35 --> Undefined array key "image"
+in APPPATH\Views\Dashboard\Artikel.php on line 21.
+ 1 APPPATH\Views\Dashboard\Artikel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('567b9427be9fbf19337ce950d5cf5bfc')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 06:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 06:57:58 --> Undefined array key "image"
+in APPPATH\Views\Dashboard\Artikel.php on line 21.
+ 1 APPPATH\Views\Dashboard\Artikel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('567b9427be9fbf19337ce950d5cf5bfc')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 06:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 06:57:59 --> Undefined array key "image"
+in APPPATH\Views\Dashboard\Artikel.php on line 21.
+ 1 APPPATH\Views\Dashboard\Artikel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('567b9427be9fbf19337ce950d5cf5bfc')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 06:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 06:58:00 --> Undefined array key "image"
+in APPPATH\Views\Dashboard\Artikel.php on line 21.
+ 1 APPPATH\Views\Dashboard\Artikel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('567b9427be9fbf19337ce950d5cf5bfc')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 06:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 06:58:56 --> Undefined array key "blog_image"
+in APPPATH\Views\Dashboard\Home.php on line 23.
+ 1 APPPATH\Views\Dashboard\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blog_image"', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Home', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(33): view('/Dashboard/Home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 06:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 06:58:57 --> Undefined array key "blog_image"
+in APPPATH\Views\Dashboard\Home.php on line 23.
+ 1 APPPATH\Views\Dashboard\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blog_image"', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Home', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(33): view('/Dashboard/Home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 06:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 06:58:58 --> Undefined array key "blog_image"
+in APPPATH\Views\Dashboard\Home.php on line 23.
+ 1 APPPATH\Views\Dashboard\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "blog_image"', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Home', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(33): view('/Dashboard/Home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 06:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 06:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 06:59:41 --> Undefined array key "image"
+in APPPATH\Views\Dashboard\Artikel.php on line 21.
+ 1 APPPATH\Views\Dashboard\Artikel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('567b9427be9fbf19337ce950d5cf5bfc')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 07:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:02:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:05:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 07:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 10:42:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('blog_create')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 10:44:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:44:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 10:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 11:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 11:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 11:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 11:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 11:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 11:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 11:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:14:09 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('update_atrikel')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:15:05 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('update_atrikel')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:16:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('update_atrikel')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:17:31 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('update_atrikel')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:17:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('update_atrikel')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:19:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('update_atrikel')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:19:15 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('update_atrikel')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:19:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:19:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:19:41 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('update_atrikel')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:19:42 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('update_atrikel')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:20:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('update_atrikel')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:20:28 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('update_atrikel')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:21:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('update_atrikel')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:21:20 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('update_atrikel')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:21:24 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('update_atrikel')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:21:29 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 7.
+ 1 APPPATH\Views\Dashboard\Artikel.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('update_atrikel')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:22:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-25 12:30:00 --> mysqli_sql_exception: Column 'id' in order clause is ambiguous in C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT tb.image...', 0)
+#1 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb.image...')
+#2 C:\xampp\htdocs\abar_rumah_tahfidz\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb.image...')
+#3 C:\xampp\htdocs\abar_rumah_tahfidz\app\Models\Artikel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT tb.image...')
+#4 C:\xampp\htdocs\abar_rumah_tahfidz\app\Controllers\Blog.php(77): App\Models\Artikel->Blog()
+#5 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(932): App\Controllers\Blog->Artikel_CRUD()
+#6 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\abar_rumah_tahfidz\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\abar_rumah_tahfidz\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\abar_rumah_tahfidz\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-08-25 12:30:00 --> Column 'id' in order clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT tb.image AS blog_image, tb.tema as tema, tb.text_1 as text_1, tb.text_2 as text_2, tb.text_3 as text_3, tb.text_4 as text_4, tb.link_yt as link_yt, tb.tanggal as tanggal, tu.username as username, tu.image AS foto FROM tab_blog AS tb JOIN tab_user AS tu ON tb.user_create = tu.id WHERE tb.status = 1 ORDER BY id DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT tb.image AS blog_image, tb.tema as tema, tb.text_1 as text_1, tb.text_2 as text_2, tb.text_3 as text_3, tb.text_4 as text_4, tb.link_yt as link_yt, tb.tanggal as tanggal, tu.username as username, tu.image AS foto FROM tab_blog AS tb JOIN tab_user AS tu ON tb.user_create = tu.id WHERE tb.status = 1 ORDER BY id DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT tb.image AS blog_image, tb.tema as tema, tb.text_1 as text_1, tb.text_2 as text_2, tb.text_3 as text_3, tb.text_4 as text_4, tb.link_yt as link_yt, tb.tanggal as tanggal, tu.username as username, tu.image AS foto FROM tab_blog AS tb JOIN tab_user AS tu ON tb.user_create = tu.id WHERE tb.status = 1 ORDER BY id DESC')
+ 4 APPPATH\Models\Artikel.php(16): CodeIgniter\Database\BaseConnection->query('SELECT tb.image AS blog_image, tb.tema as tema, tb.text_1 as text_1, tb.text_2 as text_2, tb.text_3 as text_3, tb.text_4 as text_4, tb.link_yt as link_yt, tb.tanggal as tanggal, tu.username as username, tu.image AS foto FROM tab_blog AS tb JOIN tab_user AS tu ON tb.user_create = tu.id WHERE tb.status = 1 ORDER BY id DESC')
+ 5 APPPATH\Controllers\Blog.php(77): App\Models\Artikel->Blog()
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Artikel_CRUD()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:30:27 --> Undefined array key "image"
+in APPPATH\Views\Dashboard\Blog.php on line 71.
+ 1 APPPATH\Views\Dashboard\Blog.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Blog.php', 71)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Blog.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Dashboard/Blog', [], true)
+ 5 APPPATH\Controllers\Blog.php(80): view('Dashboard/Blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Artikel_CRUD()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 12:31:31 --> Undefined array key "status"
+in APPPATH\Views\Dashboard\Blog.php on line 76.
+ 1 APPPATH\Views\Dashboard\Blog.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Blog.php', 76)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Blog.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('Dashboard/Blog', [], true)
+ 5 APPPATH\Controllers\Blog.php(80): view('Dashboard/Blog', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Artikel_CRUD()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 12:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:38:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 12:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 13:11:08 --> Undefined array key "csrf"
+in APPPATH\Views\Dashboard\Home.php on line 8.
+ 1 APPPATH\Views\Dashboard\Home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "csrf"', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Home', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(33): view('/Dashboard/Home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 13:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 13:12:54 --> Undefined array key "csrf"
+in APPPATH\Views\Dashboard\Home.php on line 8.
+ 1 APPPATH\Views\Dashboard\Home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "csrf"', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Home', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(33): view('/Dashboard/Home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 13:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 13:12:55 --> Undefined array key "csrf"
+in APPPATH\Views\Dashboard\Home.php on line 8.
+ 1 APPPATH\Views\Dashboard\Home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "csrf"', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php', 8)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Home', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(33): view('/Dashboard/Home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 13:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 13:13:45 --> Undefined array key "image"
+in APPPATH\Views\Dashboard\Home.php on line 13.
+ 1 APPPATH\Views\Dashboard\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "image"', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Home.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Home', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(33): view('/Dashboard/Home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 13:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:34:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:46:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 13:46:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 13:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 13:47:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 13:47:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 13:48:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 13:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 13:51:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 13:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 13:57:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('asdasd')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 13:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 13:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 13:58:43 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 14:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 14:03:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 14:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 14:21:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 14:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 14:22:19 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 14:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 14:24:04 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('blog_create')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 14:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 14:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 15:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 15:43:53 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 15:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 15:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 15:44:11 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 15:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 15:44:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 15:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 15:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 15:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 16:49:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 16:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 16:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 16:49:13 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 16:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 16:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 16:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 16:54:37 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 16:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 16:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 16:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 16:54:42 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 16:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 23:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 23:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 23:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 23:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 23:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 23:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 23:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 23:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-25 23:30:27 --> Trying to access array offset on value of type null
+in APPPATH\Views\Dashboard\Artikel.php on line 22.
+ 1 APPPATH\Views\Dashboard\Artikel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php', 22)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Dashboard\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Dashboard/Artikel', [], true)
+ 5 APPPATH\Controllers\Blog.php(59): view('/Dashboard/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Blog->Detail('dashboard')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-25 23:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 23:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-25 23:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

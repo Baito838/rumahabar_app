@@ -121,7 +121,7 @@
                 <div class="d-flex justify-content-around gap-3">
                     <div>
                         <img style="margin-bottom: 20px;width: 100%; max-width: 120px; border-radius: 50%; object-fit: cover; aspect-ratio: 1 / 1;" src="<?= base_url(); ?>/pengurus/zendy.jpeg" alt="">
-                        <p>Pembina<br><b>H. Zendy Astreanto</b></b></p>
+                        <p>Pembina<br><b>Haji Zendy Astreanto</b></b></p>
                     </div>
                 </div>
                 <h3 class="text-center py-2 sub-title">
@@ -139,7 +139,7 @@
                 <div class="d-flex justify-content-around gap-3">
                     <div>
                         <img style="margin-bottom: 20px;width: 100%; max-width: 120px; border-radius: 50%; object-fit: cover; aspect-ratio: 1 / 1;" src="<?= base_url(); ?>/pengurus/ebnal.jpeg" alt="">
-                        <p>Bahasa Arab <br><b>Ebnal Ayyem Abdul Malik, S.Pd</b></p>
+                        <p>Bahasa Arab <br><b>Ebnal Ayyem S.Pd</b></p>
 
                     </div>
                     <div>
@@ -158,6 +158,10 @@
                     <div>
                         <img style="margin-bottom: 20px;width: 100%; max-width: 120px; border-radius: 50%; object-fit: cover; aspect-ratio: 1 / 1;" src="<?= base_url(); ?>/pengurus/rijal.jpeg" alt="">
                         <p>Juru Masak<br><b>Rizalda</b></p>
+                    </div>
+                    <div>
+                        <img style="margin-bottom: 20px;width: 100%; max-width: 120px; border-radius: 50%; object-fit: cover; aspect-ratio: 1 / 1;" src="<?= base_url(); ?>/pengurus/Panji.jpg" alt="">
+                        <p>Guru Pencak Silat<br><b>Panji Sukma</b></p>
                     </div>
                 </div>
             </div>

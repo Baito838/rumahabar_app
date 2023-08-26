@@ -941,3 +941,42 @@ INFO - 2023-08-26 19:51:27 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-08-26 19:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-26 19:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-08-26 19:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 19:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 19:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 19:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 19:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 19:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 19:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 19:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 19:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 19:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 19:58:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\Artikel.php on line 34.
+ 1 APPPATH\Views\Artikel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Artikel.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Artikel', [], true)
+ 5 APPPATH\Controllers\Home.php(89): view('/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->Detail('logo', 'head logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-26 19:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 19:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 19:58:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 19:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-26 19:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-26 19:58:36 --> Trying to access array offset on value of type null
+in APPPATH\Views\Artikel.php on line 34.
+ 1 APPPATH\Views\Artikel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Artikel.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\app\\Views\\Artikel.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('/Artikel', [], true)
+ 5 APPPATH\Controllers\Home.php(89): view('/Artikel', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->Detail('logo', 'head logo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abar_rumah_tahfidz\\public\\index.php')
+INFO - 2023-08-26 20:28:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
